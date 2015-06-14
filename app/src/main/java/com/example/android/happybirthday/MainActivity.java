@@ -15,7 +15,7 @@ public class MainActivity extends ActionBarActivity {
         final Button b = (Button)view;
         Toast.makeText(
                 getApplicationContext(),
-                "This button will launch " + b.getText(),
+                getString(R.string.button_prefix) + " " + b.getText(),
                 Toast.LENGTH_SHORT).show();
 
     }
